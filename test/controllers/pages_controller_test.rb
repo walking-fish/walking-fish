@@ -6,4 +6,8 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should have a image" do
+    assert_select, 
+  end
+
 end
